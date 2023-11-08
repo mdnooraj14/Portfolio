@@ -455,7 +455,13 @@ p {
 	position: relative;
 	border: 10px solid white;
 }
-#about .col-left .about-img::after {
+#about .col-left .about-img img{
+	position: absolute;
+	left: -38px;
+	top: -34px;
+	border: 6px solid black;
+}
+/* #about .col-left .about-img::after {
 	content: '';
 	position: absolute;
 	left: -33px;
@@ -464,7 +470,7 @@ p {
 	width: 98%;
 	border: 7px solid crimson;
 	z-index: -1;
-}
+} */
 /* End About Section */
 
 /* contact Section */
